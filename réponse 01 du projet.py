@@ -5,7 +5,6 @@
 #Laradji Choumicha
 
 import pandas as pd 
-
 # Données: Séquences ADN, Langueur, Pourcentage de GC
 data = { 
     "Séquence":["ATGCGTACGTA", "GCTAGCTAGGCC", "ATGCGCGTAAGT", "TACGATCGTA", "ATGAAAGGCTT", "CGTACGTAGC", "TTAACCGGAT"],
