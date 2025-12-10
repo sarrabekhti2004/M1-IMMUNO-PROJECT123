@@ -1,4 +1,10 @@
-#Pandas avec Dr Dib Joanna et Dr Ameur Djilali
+#PROJECT-M1 IMMUNOLOGIE sur lanalyse de séquences ADN avec Python et PANDAS 13/12/2025
+#Chef de groupe: BEKHTI SARRA
+# LES Autres membres de l'équipe: KECHE NOUR EL HOUDA 
+#MANSOURI WIAM 
+#KHECHAI KHEIRA IMANE
+#LARADJI CHOUMICHA 
+
 import pandas as pd 
 
 # Données: Séquences ADN, Langueur, Pourcentage de GC
