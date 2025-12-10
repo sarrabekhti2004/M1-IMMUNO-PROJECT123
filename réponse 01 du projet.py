@@ -1,9 +1,8 @@
-#PROJECT-M1 IMMUNOLOGIE sur lanalyse de séquences ADN avec Python et PANDAS 13/12/2025
-#Chef de groupe: BEKHTI SARRA
-# LES Autres membres de l'équipe: KECHE NOUR EL HOUDA 
-#MANSOURI WIAM 
-#KHECHAI KHEIRA IMANE
-#LARADJI CHOUMICHA 
+#M1 Immunologie_Sarra.Bekhti_M1-IMMUNO-PROJECT123_11/12/2025
+#Keche Nour el Houda
+#Mansouri Wiam
+#Khechai Kheira Imane
+#Laradji Choumicha
 
 import pandas as pd 
 
