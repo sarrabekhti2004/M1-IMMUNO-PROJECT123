@@ -1,4 +1,3 @@
-
 import pandas as pd 
 #7) Données: Séquences ADN, Langueur, Pourcentage de GC
 data = { 
