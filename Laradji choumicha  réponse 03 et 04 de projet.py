@@ -7,14 +7,14 @@ data = {
 }
 
 #3)filtrer les séquences dont la longueur est supérieur à 10
-print("féltrage des séquences dont la longueur est supérieur à 10")
+print("filtrage des séquences dont la longueur est supérieur à 10")
 #filtrer les séquences dont la langueur est supérieur à 10
 df = pd.DataFrame(data)
 filtered_df = df[df["Longueur"]>10]
 print(filtered_df)
 
 #4)Calculer la moyenne du pourcentage de GC
-print("** Calcul de la moyenne **")
+print("********* Calcul de la moyenne **********")
 # Calculer la moyenne du pourcentage de GC
 df = pd.DataFrame(data)
 average_gc = df["Pourcentage GC"].mean()
