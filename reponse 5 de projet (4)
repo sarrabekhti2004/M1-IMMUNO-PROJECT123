@@ -1,0 +1,65 @@
+import pandas as pd 
+# DonnÃ©es: SÃ©quences ADN, Langueur, Pourcentage de GC
+data = { 
+    "SÃ©quence":["ATGCGTACGTA", "GCTAGCTAGGCC", "ATGCGCGTAAGT", "TACGATCGTA", "ATGAAAGGCTT", "CGTACGTAGC", "TTAACCGGAT"],
+    "Longueur":[12, 12, 12, 10, 11, 10, 10],
+    "Pourcentage GC": [50, 66.67, 58.33, 40, 45.45, 60, 50]
+    }
+#5)Ajouter une nouvelle colonne avec des calculs
+print("******* Ajout d'une nouvelle colonne *******" )
+#Ajouter une nouvelle "Longueur catÃ©gorisÃ©e"
+df = pd.DataFrame(data)
+df["CatÃ©gorie Longueur"] = df ["Longueur"].apply(lambda x: "Longue"if x > 55 else "Riche")
+print(df)
+import pandas as pd 
+# DonnÃ©es: SÃ©quences ADN, Langueur, Pourcentage de GC
+data = { 
+    "SÃ©quence":["ATGCGTACGTA", "GCTAGCTAGGCC", "ATGCGCGTAAGT", "TACGATCGTA", "ATGAAAGGCTT", "CGTACGTAGC", "TTAACCGGAT"],
+    "Longueur":[12, 12, 12, 10, 11, 10, 10],
+    "Pourcentage GC": [50, 66.67, 58.33, 40, 45.45, 60, 50]
+    }
+#5)Ajouter une nouvelle colonne avec des calculs
+print("******* Ajout d'une nouvelle colonne *******" )
+#Ajouter une nouvelle "Longueur catÃ©gorisÃ©e"
+df = pd.DataFrame(data)
+df["CatÃ©gorie Longueur"] = df ["Longueur"].apply(lambda x: "Longue"if x <45 else "Faible")
+print(df)
+import pandas as pd 
+# DonnÃ©es: SÃ©quences ADN, Longueur, Pourcentage de GC
+data = { 
+    "SÃ©quence":["ATGCGTACGTA", "GCTAGCTAGGCC", "ATGCGCGTAAGT", "TACGATCGTA", "ATGAAAGGCTT", "CGTACGTAGC", "TTAACCGGAT"],
+    "Longueur":[12, 12, 12, 10, 11, 10, 10],
+    "Pourcentage GC": [50, 66.67, 58.33, 40, 45.45, 60, 50]
+    }
+#5)Ajouter une nouvelle colonne avec des calculs
+print("******* Ajout d'une nouvelle colonne *******" )
+#Ajouter une nouvelle "Longueur catÃ©gorisÃ©e"
+df = pd.DataFrame(data)
+df["CatÃ©gorie Longueur"] = df ["Longueur"].apply(lambda x: "Longue"if 45 <= x <=55 else "Moyen")
+print(df)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
