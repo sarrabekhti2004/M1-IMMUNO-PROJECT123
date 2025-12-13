@@ -80,8 +80,12 @@ print("**************** Tableau avec la nouvelle colonne ****************","\n""
 df["Nombre de G"] = df["Séquence"].apply(lambda x: x.count("G"))
 print(df)
 
-#7)Calculer l‟écart-type du %GC
-ecart_type_gc = df["Pourcentage GC"].std()
+#7)Moyenne du Pourcentage de GC
+nom_de_la_colonne = "Pourcentage GC"
+moyenne_gc = df[nom_de_la_colonne].mean()
+print(f"La moyenne de {nom_de_la_colonne} est : {moyenne_gc:.2f}")Calculer l‟écart-type du %GC
+
+#ecart_type_gc = df["Pourcentage GC"].std()
 print("****************L'écart-type du Pourcentage GC*****************")
 print(f"L'écart-type du Pourcentage GC est : {ecart_type_gc:.4f}\n")
 df = pd.DataFrame(data)
