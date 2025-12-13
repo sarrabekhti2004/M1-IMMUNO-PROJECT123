@@ -14,7 +14,7 @@ filtered_df = df[df["Longueur"]>10]
 print(filtered_df)
 
 #4)Calculer la moyenne du pourcentage de GC
-print("********* Calcul de la moyenne **********","/n")
+print("********* Calcul de la moyenne **********")
 # Calculer la moyenne du pourcentage de GC
 df = pd.DataFrame(data)
 average_gc = df["Pourcentage GC"].mean()
