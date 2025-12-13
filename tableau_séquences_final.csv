@@ -1,0 +1,8 @@
+Séquence,Longueur,Pourcentage GC,Nombre de G,Catégorie Longueur
+ATGCGTACGTA,12,50.0,3,Longue
+GCTAGCTAGGCC,12,66.67,4,Longue
+ATGCGCGTAAGT,12,58.33,4,Longue
+TACGATCGTA,10,40.0,2,Courte/Moyenne
+ATGAAAGGCTT,11,45.45,3,Courte/Moyenne
+CGTACGTAGC,10,60.0,3,Courte/Moyenne
+TTAACCGGAT,10,50.0,2,Courte/Moyenne
